@@ -101,6 +101,7 @@ export default {
       this.stop()
       this.time = 0
       this.delayTime = 0
+      this.start()
     },
     intervalFun () {
       if (this.time >= 3600 * 24) {
